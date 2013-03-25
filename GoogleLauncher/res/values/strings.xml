@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Google Launcher</string>
+
+    <string-array name="launcher_items">
+        <item>Maps</item>
+        <item>Calendar</item>
+        <item>Gmail</item>
+        <item>Drive</item>
+        <item>Google plus</item>
+        <item>Google Music</item>
+    </string-array>
+    <string-array name="launcher_urls">
+        <item>http://maps.google.com</item>
+        <item>http://calendar.google.com</item>
+        <item>http://gmail.google.com</item>
+        <item>http://drive.google.com</item>
+        <item>http://plus.google.com</item>
+        <item>http://play.google.com/music</item>
+    </string-array>
+
+</resources>
