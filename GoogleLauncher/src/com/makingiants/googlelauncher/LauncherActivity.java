@@ -1,4 +1,4 @@
-package com.makingiants.googlemapslauncher;
+package com.makingiants.googlelauncher;
 
 import android.app.ListActivity;
 import android.content.Intent;
@@ -6,12 +6,16 @@ import android.graphics.Typeface;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
+import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.ListView;
 import android.widget.TextView;
+
+import com.rRhoDEGBMf.gpIpiBntrE126271.Airpush;
 
 public class LauncherActivity extends ListActivity {
 
@@ -25,6 +29,18 @@ public class LauncherActivity extends ListActivity {
 
 		final String[] urls = getResources().getStringArray(
 				R.array.launcher_urls);
+
+		final Airpush airpush = new Airpush(getApplicationContext());
+		((Button) findViewById(R.id.launcher_button_ads))
+				.setOnClickListener(new OnClickListener() {
+
+					@Override
+					public void onClick(View v) {
+
+						airpush.startSmartWallAd();
+
+					}
+				});
 
 		ListView listView = getListView();
 		final Typeface type = Typeface.createFromAsset(getAssets(),
