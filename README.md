@@ -1,6 +1,6 @@
-# Google Launcher
+# Google Launcher[![Google Play](http://developer.android.com/images/brand/en_generic_rgb_wo_45.png)](https://play.google.com/store/apps/details?id=com.makingiants.googlelauncher)
 
-<a href="http://appworld.blackberry.com/webstore/vendor/54279/" alt="Blackberry World">
+<a href="https://play.google.com/store/apps/details?id=com.makingiants.googlelauncher" alt="Blackberry World">
 	<img src="http://1.bp.blogspot.com/-ZXJ12NP34Wo/UWB53UhJDGI/AAAAAAAABuc/K6igS3kHuss/s640/banner+google.jpg">
 </a>
 
