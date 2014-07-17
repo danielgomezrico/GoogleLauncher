@@ -1,7 +1,7 @@
 # Google Launcher
 
 <a href="http://appworld.blackberry.com/webstore/vendor/54279/" alt="Blackberry World">
-	<img src="http://dc149.4shared.com/img/w-YY7vkR/0.47513566117994144/banner.png">
+	<img src="http://1.bp.blogspot.com/-ZXJ12NP34Wo/UWB53UhJDGI/AAAAAAAABuc/K6igS3kHuss/s640/banner+google.jpg">
 </a>
 
 Blackberry and Android Eclipse project to use the shortcuts for google apps.
