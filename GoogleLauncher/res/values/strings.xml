@@ -2,6 +2,7 @@
 <resources>
 
     <string name="app_name">Google Launcher</string>
+    <string name="launcher_button_ads_text">See More Apps</string>
 
     <string-array name="launcher_items">
         <item>Maps</item>
