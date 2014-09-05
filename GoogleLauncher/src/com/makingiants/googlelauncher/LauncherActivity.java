@@ -6,16 +6,15 @@ import android.graphics.Typeface;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
-import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ArrayAdapter;
-import android.widget.Button;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import com.rRhoDEGBMf.gpIpiBntrE126271.Airpush;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
 
 public class LauncherActivity extends ListActivity {
 
@@ -24,23 +23,19 @@ public class LauncherActivity extends ListActivity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_launcher);
 
+		// Create an ad request. Check logcat output for the hashed device ID to
+		// get test ads on a physical device.
+		//AdRequest adRequest = new AdRequest.Builder().addTestDevice(
+		//		"027c6ee5571a8376").build();
+		AdRequest adRequest = new AdRequest.Builder().build();
+		// Start loading the ad in the background.
+		((AdView) findViewById(R.id.ear_ads)).loadAd(adRequest);
+
 		final String[] values = getResources().getStringArray(
 				R.array.launcher_items);
 
 		final String[] urls = getResources().getStringArray(
 				R.array.launcher_urls);
-
-		final Airpush airpush = new Airpush(getApplicationContext());
-		((Button) findViewById(R.id.launcher_button_ads))
-				.setOnClickListener(new OnClickListener() {
-
-					@Override
-					public void onClick(View v) {
-
-						airpush.startSmartWallAd();
-
-					}
-				});
 
 		ListView listView = getListView();
 		final Typeface type = Typeface.createFromAsset(getAssets(),
