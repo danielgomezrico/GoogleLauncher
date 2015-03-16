@@ -6,6 +6,7 @@
 
 Blackberry and Android Eclipse project to use the shortcuts for google apps.
 
+Updated to Android Studio 1.1
 
 ## License
 

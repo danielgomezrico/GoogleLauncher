@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/danielgomez22/AndroidStudioProjects/GoogleLauncher1111/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/6.5.87/classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="95482e7c792a7c0d5a9d5461e97726bd54fe9549">
+        <dex dex="/Users/danielgomez22/AndroidStudioProjects/GoogleLauncher1111/app/build/intermediates/pre-dexed/debug/classes-679e7d87a9b60ee074bebfec7b0c04460aaa2285.jar" />
+    </item>
+    <item
+        jar="/Users/danielgomez22/AndroidStudioProjects/GoogleLauncher1111/app/build/intermediates/exploded-aar/uk.co.chrisjenx/calligraphy/2.0.2/classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="ddb8ff19c902eab4a3e970ed63fa6c2e2bc1e848">
+        <dex dex="/Users/danielgomez22/AndroidStudioProjects/GoogleLauncher1111/app/build/intermediates/pre-dexed/debug/classes-262bae05064d62c315c829775aecd0c82b655130.jar" />
+    </item>
+    <item
+        jar="/Users/danielgomez22/AndroidStudioProjects/GoogleLauncher1111/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/6.5.87/classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="41aa21f9c5d9ea9aab32c0b8e33d0c13364063a9">
+        <dex dex="/Users/danielgomez22/AndroidStudioProjects/GoogleLauncher1111/app/build/intermediates/pre-dexed/debug/classes-ab66879ad146ea4dc2a54b8995de8ee68b5a5ce3.jar" />
+    </item>
+    <item
+        jar="/Users/danielgomez22/Development/android-sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.0/support-annotations-21.0.0.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="1a578b9607b36266c63d43a4fa0ab5664dbe911e">
+        <dex dex="/Users/danielgomez22/AndroidStudioProjects/GoogleLauncher1111/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.0-69f744f45d46c45a6dd3189e9436a5e8b5378e3e.jar" />
+    </item>
+    <item
+        jar="/Users/danielgomez22/AndroidStudioProjects/GoogleLauncher1111/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="686344a780033e4ba22b926cd225f8d4941247e6">
+        <dex dex="/Users/danielgomez22/AndroidStudioProjects/GoogleLauncher1111/app/build/intermediates/pre-dexed/debug/classes-51bab2b35e3f04bf76864cff52e430458bfb02ce.jar" />
+    </item>
+    <item
+        jar="/Users/danielgomez22/AndroidStudioProjects/GoogleLauncher1111/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/libs/internal_impl-21.0.0.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="1609e6d42d0480b0f4188e2c29f75388fa12a8f0">
+        <dex dex="/Users/danielgomez22/AndroidStudioProjects/GoogleLauncher1111/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.0-ab1f3a7c982a1d06718e9ff603042fc70963e7f9.jar" />
+    </item>
+
+</items>
